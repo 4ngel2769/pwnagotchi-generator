@@ -50,8 +50,6 @@ Includes a fleet management system (CLI and web interface) for controlling multi
 **Health Checks** - Fleet-wide diagnostics  
 **Export/Import** - Backup and restore fleet data
 
-See [VERSION-2.0-IMPROVEMENTS.md](readmes/VERSION-2.0-IMPROVEMENTS.md) for complete details.
-
 ## Requirements
 
 ```bash
@@ -64,17 +62,6 @@ pip3 install requests pycryptodome PySocks tabulate colorama
 # Optional: Web UI dependencies
 pip3 install flask flask-socketio python-socketio
 ```
-
-## 📚 Documentation
-
-**Quick Links:**
-- [Fleet Manager Guide](readmes/FLEET-MANAGER.md) - Complete manager documentation
-- [CLI Commands Reference](readmes/CLI-COMMANDS.md) - All commands with examples
-- [Tmux Integration](readmes/TMUX-GUIDE.md) - Split-screen setup
-- [Color Themes](readmes/COLOR-THEMES.md) - Theme customization
-- [Version 2.0 Improvements](readmes/VERSION-2.0-IMPROVEMENTS.md) - What's new
-- [Multi-Threading](readmes/MULTI-THREADING.md) - Performance guide
-- [Installation](readmes/INSTALL.md) - Setup instructions
 
 **Tor Support (Optional)**
 ```bash
@@ -179,14 +166,6 @@ reload            Reload units from disk
 ```
 
 See `readmes/FLEET-MANAGER.md` for complete documentation.
-
-## Documentation
-
-- `readmes/INSTALL.md` - Detailed installation guide
-- `readmes/FLEET-MANAGER.md` - Fleet manager documentation
-- `readmes/MULTI-THREADING.md` - Multi-threaded reporting guide
-- `readmes/CONVERSION-GUIDE.md` - Migrating from older versions
-- `readmes/LINUX-QUICKSTART.md` - Linux quick reference
 
 ## Examples
 
