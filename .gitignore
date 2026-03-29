@@ -180,8 +180,6 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-pwnagotchi/
-pwngrid/
 fake_pwnies/
 pv_readme/
 pwnagotchi/
